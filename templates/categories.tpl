@@ -7,6 +7,9 @@
 	<div class="col-lg-9 col-sm-12 clearfix" no-widget-class="col-lg-12 col-sm-12" no-widget-target="sidebar">
 		<div class="row">
 			<!-- BEGIN categories -->
+			<div class="jumbotron">
+			    <div class="h1">THIS IS A TEST</div>
+			</div>
 			<div component="categories/category" class="{categories.class}" data-cid="{categories.cid}" data-numRecentReplies="{categories.numRecentReplies}">
 				<meta itemprop="name" content="{categories.name}">
 				<h4 class="category-title">
