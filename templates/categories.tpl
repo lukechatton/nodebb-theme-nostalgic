@@ -7,9 +7,6 @@
 	<div class="col-lg-9 col-sm-12 clearfix" no-widget-class="col-lg-12 col-sm-12" no-widget-target="sidebar">
 		<div class="row">
 			<!-- BEGIN categories -->
-			<div class="jumbotron">
-			    <div class="h1">THIS IS A TEST</div>
-			</div>
 			<div component="categories/category" class="{categories.class}" data-cid="{categories.cid}" data-numRecentReplies="{categories.numRecentReplies}">
 				<meta itemprop="name" content="{categories.name}">
 				<h4 class="category-title">
@@ -27,9 +24,9 @@
 				</h4>
 
 				<!-- IF categories.link -->
-				<a style="color: {categories.color};" href="{categories.link}" itemprop="url" target="_blank">
+				<a style="color: {categories.color};" href="{categories.link}" itemprop="url" target="_blank"></a>
 				<!-- ELSE -->
-				<a style="color: {categories.color};" href="{config.relative_path}/category/{categories.slug}" itemprop="url">
+				<a style="color: {categories.color};" href="{config.relative_path}/category/{categories.slug}" itemprop="url"></a>
 				<!-- ENDIF categories.link -->
 					<div
 						id="category-{categories.cid}" class="category-header category-header-image-{categories.imageClass}"
@@ -59,6 +56,7 @@
 						</div>
 					</div>
 				</a>
+
 			</div>
 			<!-- END categories -->
 		</div>
